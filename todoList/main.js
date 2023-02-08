@@ -1,3 +1,5 @@
+//npm run dev
+// vite project
 const ul = document.querySelector("ul");
 const form = document.querySelector("form");
 const input = document.querySelector("form > input");
@@ -12,9 +14,7 @@ form.addEventListener('submit', (event) => {
   displayTodo();
 })
 
-const todos = [
-
-];
+const todos = [];
 
 const displayTodo = () => {
   const todoNode = todos.map((todo, index) => {
